@@ -128,6 +128,9 @@ body .section2 div{
         background-color:  rgb(54, 12, 133);
         margin-bottom: 10%;
         color: white;
+        border: 2px solid white
+        border-radius: 5px;
+        box-shadow: 0 0 15px black;
     }
     .textcontent2{
         display: block;
@@ -136,6 +139,9 @@ body .section2 div{
         background-color:  rgb(54, 12, 133);
         margin-bottom: 10%;
         color: white;
+        border: 2px solid white
+        border-radius: 5px;
+        box-shadow: 0 0 15px black;
     }
     .textcontent3{
         display: block;
@@ -143,6 +149,9 @@ body .section2 div{
         .name{color: rgb(195, 111, 255);}
         background-color:  rgb(54, 12, 133);
         color: white;
+        border: 2px solid white
+        border-radius: 5px;
+        box-shadow: 0 0 15px black;
     }
     
 }
