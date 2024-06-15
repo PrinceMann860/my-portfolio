@@ -16,34 +16,55 @@
 
 <body>
     <header>
-        <nav>
+        <nav class="navbar">
+        <div class="compname">
             <h1>
                 Pritam's Portfolio
             </h1>
+        </div>
+        <div class="menu">
             <ul class="pages">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><b>Project</b></li>
+                <li><button id="theme-toggle">&#127774;\&#127772;</button></li>
             </ul>
+        </div>
         </nav>
     </header>
     <main>
-        <section>
+        <div class="parent">
+            <div class="childleft">
+                <h2> <span id="element2"></span> <br></h2>
+            </div>
+            <div class="childright"><img src="project.png" alt="img error" width="100%"></div>
+        </div>
+        <section2 class="projects">
             <h2>Projects</h2>
-            <div class="img1"><img src="project.png" alt="img error" width="40%"></div>
-            <h3> <span id="element2"></span> <br>
-                The some of <span class="name">projects</span> are mentioned below:</h3> <br>
-        </section>
-        <section2>
-            <li><span class="name">Pandamark-I(AI)</span>:- It is my first advance python program which is a personal ai
-                chatbot which can talk to us and perform some basic tasks.</li>
-            <li><span class="name">Wikipedia Searching Program"</span>:- It is a program which capable to search
-                Wikipedia and otherwise it will show the result on google.</li>
-            <li><span class="name">My portfolio website</span>:- It is my portfolio website which provide information
-                about me and my qualifications. It is made in HTMl CSS and JavaScript.</li>
-            <li><span class="name">Pandamark-II(AI)</span>:- It is the upgraded version of Pandamark-I which have a new ui and some extra features like calculations on voice command, opening websites, sleep mode, etc.</li>
-            <li><span class="name">Calendar.py</span>:- It is a small but a useful program it create the calender of the which we enter in it with input.</li>
-            <li><span class="name">Tic Tac Toegame</span>:- It is a game created in python which can be played by 2 players in which there are 9 boxes and we put x or o in them one by one who arrange x or o in a staight line first that win the game.</li>
+
+            <h3>The some of <span class="name">projects</span> are mentioned below:</h3> <br>
+        </h3>
+            <ul >
+                <li><span class="name">Pandamark-I(AI)</span>:- It is my first advance python program which is a
+                    personal ai
+                    chatbot which can talk to us and perform some basic tasks.</li>
+                <li><span class="name">Wikipedia Searching Program"</span>:- It is a program which capable to search
+                    Wikipedia and otherwise it will show the result on google.</li>
+                <li><span class="name">My portfolio website</span>:- It is my portfolio website which provide
+                    information
+                    about me and my qualifications. It is made in HTMl CSS and JavaScript.</li>
+                <li><span class="name">Pandamark-II(AI)</span>:- It is the upgraded version of Pandamark-I which have a
+                    new
+                    ui and some extra features like calculations on voice command, opening websites, sleep mode, etc.
+                </li>
+                <li><span class="name">Calendar.py</span>:- It is a small but a useful program it create the calender of
+                    the
+                    which we enter in it with input.</li>
+                <li><span class="name">Tic Tac Toegame</span>:- It is a game created in python which can be played by 2
+                    players in which there are 9 boxes and we put x or o in them one by one who arrange x or o in a
+                    staight
+                    line first that win the game.</li>
+            </ul>
         </section2>
     </main>
     <footer class="footer">
@@ -62,6 +83,10 @@
     </footer>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
+        
+    document.getElementById('theme-toggle').onclick = function () {
+    document.body.classList.toggle('dark-mode');
+};
         var typed = new Typed('#element2', {
             strings: ["As a web designer and python programmer I have made some projects."],
             typeSpeed: 50,
