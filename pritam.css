@@ -20,7 +20,7 @@ body .section2 div{
 }
 @media screen and (max-width: 4000px){
     body{
-        height: 150vh;
+        height: 160vh;
     }
     .parent{
         display: flex;
