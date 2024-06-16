@@ -10,7 +10,7 @@ body{
     color:white;
 }
 
-.dark-mode {
+.light-mode {
     background-color: white;
     color: black;
     .section2 div{
