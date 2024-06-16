@@ -12,6 +12,7 @@ body{
 .dark-mode {
     background-color: white;
     color: black;
+}
 @media screen and (max-width: 4000px){
     body{
         height: 160vh;
