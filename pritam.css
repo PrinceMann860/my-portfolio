@@ -94,15 +94,11 @@ body{
         justify-content: space-between;
     }
     .section2 div{
-        border: 4px solid rgb(255, 255, 255);
         display: block;
         width: 90vw;
         .name{color: rgb(195, 111, 255);}
-        background-color:  rgb(54, 12, 133);
         margin-bottom: 10%;
-        color: white;
-        border-radius: 10px;
-        box-shadow: 0 0 15px black;
+    
     }
     .section2 div:hover{
         border: none;
