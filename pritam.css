@@ -10,7 +10,7 @@ body{
     color:white;
 }
 
-.light-mode {
+.dark-mode {
     background-color: white;
     color: black;
     .section2 div{
@@ -65,10 +65,10 @@ body{
     }
 }
 @media screen and (max-width: 600px ){
-      body{
+    body{
         height: 200vh;
     }
-    }
+
     .parent{
         display: block;
     }
@@ -99,15 +99,11 @@ body{
         width: 90vw;
         .name{color: rgb(195, 111, 255);}
         margin-bottom: 10%;
-    
     }
     .section2 div:hover{
         border: none;
         font-size:none;
         box-shadow: none;
-    }
-    .textcontent3{
-        margin-bottom: 20vh;
     }
 }
 
