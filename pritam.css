@@ -23,7 +23,7 @@ body {
 
 @media screen and (max-width: 4000px) {
      main{
-         height: 150vh
+         height: 150vh;
      }
     .parent {
         display: flex;
@@ -76,7 +76,7 @@ body {
 
 @media screen and (max-width: 600px) {
     main{
-        height: 170vh;
+        height: 180vh;
     }
     .parent {
         display: block;
