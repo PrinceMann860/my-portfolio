@@ -19,6 +19,9 @@ body{
 
 }
 @media screen and (max-width: 4000px){
+    body{
+        height: auto;
+    }
     .parent{
         display: flex;
         justify-content: space-around;
@@ -62,6 +65,9 @@ body{
     }
 }
 @media screen and (max-width: 600px ){
+      body{
+        height: auto;
+    }
     }
     .parent{
         display: block;
