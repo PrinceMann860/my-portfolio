@@ -22,10 +22,9 @@ body {
 }
 
 @media screen and (max-width: 4000px) {
-    body {
-        height: 150vh;
-    }
-
+     main{
+         height: 150vh
+     }
     .parent {
         display: flex;
         justify-content: space-around;
@@ -76,10 +75,9 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-    body {
-        height: 200vh;
+    main{
+        height: 170vh;
     }
-
     .parent {
         display: block;
     }
