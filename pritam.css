@@ -194,10 +194,6 @@ a {
     color: rgb(195, 111, 255);
 }
 
-main {
-    height: 150vh;
-}
-
 .projects {
     display: block;
     justify-content: space-between;
