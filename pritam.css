@@ -3,14 +3,11 @@
     padding: 0;
     font-family: poppins, sans-serif;
     cursor: pointer;
-
 }
-
 body {
     background-color: rgb(13, 1, 40);
     color: white;
 }
-
 .light-mode {
     background-color: white;
     color: black;
@@ -18,9 +15,7 @@ body {
     .section2 div {
         box-shadow: 0 0 15px solid white;
     }
-
 }
-
 @media screen and (max-width: 4000px) {
      main{
          height: 150vh;
@@ -29,7 +24,6 @@ body {
         display: flex;
         justify-content: space-around;
     }
-
     .childleft {
         display: flex;
         text-align: center;
@@ -37,49 +31,40 @@ body {
         align-items: center;
         justify-content: center;
     }
-
     .childright {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 30vw;
-
     }
-
     .section2 {
         display: flex;
         margin-left: 5vw;
         font-size: larger;
         align-content: space-between;
     }
-
     .section2 div ul li {
         list-style-type: none;
     }
-
     .section2 div {
         display: block;
         width: 40vw;
     }
-
     .textcontent3 {
         margin-right: 5vw;
     }
-
     .section2 div:hover {
         border-bottom: 4px solid;
         border-right: 4px solid;
         font-size: larger;
         box-shadow: 4px solid black;
     }
-      .projects{
+    .projects{
         display: grid;
         grid-template-rows: repeat(3, 1fr);
         grid-template-columns: repeat(3, 1fr);
-        height: 20vh;
-        
+        height: 20vh;  
     }
-    
     .projects p{
         background-color: rgb(54, 12, 133);
         color: white;
@@ -93,7 +78,6 @@ body {
         text-decoration: 2px underline white;
     }
 }
-
 @media screen and (max-width: 600px) {
     main{
         height: 220vh;
@@ -101,7 +85,6 @@ body {
     .parent {
         display: block;
     }
-
     .childleft {
         display: block;
         text-align: center;
@@ -109,8 +92,6 @@ body {
         align-items: center;
         justify-content: center;
     }
-
-
     .childright {
         display: flex;
         justify-content: center;
@@ -118,25 +99,20 @@ body {
         width: 75vw;
         margin-left: 12vw;
     }
-
     .section2 {
         display: block;
         margin-left: 5vw;
         font-size: larger;
         justify-content: space-between;
     }
-
     .section2 div {
         display: block;
         width: 90vw;
-
         .name {
             color: rgb(195, 111, 255);
         }
-
         margin-bottom: 10%;
     }
-
     .section2 div:hover {
         border: none;
         font-size: none;
@@ -150,10 +126,8 @@ body {
     .projects p{
         box-shadow: 0 0 15px black;
         border: 2px solid white;
-
     }
 }
-
 .navbar {
     display: flex;
     align-content: space-between;
@@ -162,7 +136,6 @@ body {
     width: 100%;
     height: 80px;
 }
-
 .compname {
     display: grid;
     width: 45%;
@@ -170,7 +143,6 @@ body {
     text-align: center;
     align-items: center;
 }
-
 #theme-toggle {
     background-color: rgb(54, 12, 133);
     text-decoration: none;
@@ -181,19 +153,15 @@ body {
     right: 0;
     top: 0;
 }
-
 .menu {
     width: 50%;
 }
-
 .menu ul {
     display: flex;
     list-style-type: none;
     justify-content: center;
     align-items: center;
-
 }
-
 .menu ul li {
     display: inline-flex;
     align-content: space-around;
@@ -201,27 +169,22 @@ body {
     margin-left: 3vw;
     font-size: 1rem;
 }
-
 .menu ul li b {
     border-bottom: 2px solid white;
     transition: 2s;
 }
-
 .menu ul li a:hover {
     border-bottom: 2px solid rgb(223, 223, 223);
     color: rgb(223, 223, 223);
     ;
 }
-
 a {
     text-decoration: none;
     color: white;
 }
-
 .name {
     color: rgb(195, 111, 255);
 }
-
 footer {
     display: block;
     background-color: rgb(54, 12, 133);
@@ -234,11 +197,9 @@ footer {
     height: 15vh;
     font-size: 15px;
 }
-
 footer a {
     text-decoration: none;
 }
-
 footer a:hover {
     color: gray;
     font-size: larger;
