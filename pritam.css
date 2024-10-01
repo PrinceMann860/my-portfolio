@@ -79,7 +79,7 @@ body {
 }
 @media screen and (max-width: 600px) {
     main{
-        height: 297vh;
+        height: 250vh;
     }
     .parent {
         display: block;
