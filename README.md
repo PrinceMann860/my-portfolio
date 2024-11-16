@@ -1,2 +1,2 @@
 # my-portfolio
-Hi! myself Pritam ,This is my portfolio website
+Welcome to my portfolio website, a showcase of my skills and qualifications. This site is one of my proudest projects, and as you explore it, you're experiencing firsthand the features and functionalities I've created. I welcome any suggestions or feedback you might have—feel free to contact me through the links below. As a beginner web developer, I built this site using HTML, CSS, and JavaScript, and it stands as a testament to my learning journey and dedication to the craft. Thank you for visiting!
